@@ -32,18 +32,3 @@ export default class ListItem extends React.Component {
 		);
 	}
 }
-
-/**
- * 
- * render() {
-		return (
-			<div onClick={this.onItemPressed} style={{ opacity: this.state.opacity ? 0.5 : 1 }}>
-				<h3>{this.props.itemText}</h3>
-			</div>
-		);
-	}
-*/
-
-// render some text and if you click on it it will be 50%
-// have key={...} stuff so it
-// should stay
